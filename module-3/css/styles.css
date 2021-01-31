@@ -1,0 +1,119 @@
+body{
+	background: url('../images/background.jpg');
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#header-nav{
+	background-color: #804516;
+	border-radius: 0;
+	border: 0;
+	border: none;
+}
+
+#logo-img {
+	background: url('../images/food-logo_large.PNG') no-repeat;
+	width: 87px;
+	height: 58px;
+	margin-right: 0px 0px 0px 15px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.navbar-brand h1{
+	color: #28e059;
+	font-weight: bold;
+	margin-top: 14px;
+	font-size: 30px;
+}
+
+#header-nav button {
+	margin-top: 15px;
+}
+
+.navbar-header{
+	padding-left: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #28e059;
+}
+
+#nav-list {
+    background-color: #e4af34;
+    margin-top: 0px;
+}
+
+#nav-list a {
+	text-align: center;
+    font-weight: bolder;
+    color: #804516;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover{
+	background-color: #d6a638;
+}
+
+.navbar-nav{
+	margin-bottom: 0;
+}
+
+.mainTitle{
+	background-color: white;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	height: 40px;
+    text-align:center;
+    border: 1px solid red;
+    display: block;
+}
+
+body > h1{
+	margin:auto;
+    vertical-align:middle;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 30%;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#header-nav .container{
+	position: relative;
+	margin: 0;
+}
+
+.row{
+	margin: auto;
+	width: 90%;
+	margin: 0;
+}
+
+.table {
+	position: relative;
+}
+
+body > .container{
+	width: 100%;
+	position: relative;
+
+}
+
+.table{
+	background-color: white;
+	border: 2px solid red;
+	border-radius: 5px;
+
+}
+
+#collapsable-nav{
+    border: none;
+}
